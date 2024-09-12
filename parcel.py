@@ -9,7 +9,7 @@ st.title('Parcel Lookup App')
 
 # if uploaded_file is not None:
     # Read CSV file
-df = pd.read_csv(parcel_data.csv)
+df = pd.read_csv("parcel_data.csv")
 
 # Show the first few rows of the dataframe
 st.write("Here's a preview of your data:")
